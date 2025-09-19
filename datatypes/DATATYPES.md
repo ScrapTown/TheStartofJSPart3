@@ -29,7 +29,6 @@ Primitive Datatypes are stored in Stack Memory whereas Non-Primitive Datatypes a
 
 2. Call by Reference - Here,changes in one variable will affect original value in another variable.
 
-
      ________                            ________
     |________|                         |         |
     |________|                         |         |
@@ -44,7 +43,6 @@ Primitive Datatypes are stored in Stack Memory whereas Non-Primitive Datatypes a
     |________|                         |         |
     |___b____|  ------------------->   | [1,2,3] | 
     |___a____|  ------------|          |_________| 
-
 
 Value of non-primitive variables are stored in heap memory.
 As a and b both points to value stored in same location.
