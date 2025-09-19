@@ -31,3 +31,12 @@ if (true) {
 }
 
 console.log(f)
+
+function func() {
+    var g = 4
+    console.log(g)
+}
+
+console.log(g)
+
+func()
