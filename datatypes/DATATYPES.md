@@ -36,7 +36,6 @@ Primitive Datatypes are stored in Stack Memory whereas Non-Primitive Datatypes a
     |________|              |------>   | [1,2,3] | 
     |___a____|  ------------|          |_________| 
 
-
      ________                            ________
     |________|                         |         |
     |________|                         |         |
