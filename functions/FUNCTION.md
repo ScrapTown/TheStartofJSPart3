@@ -58,3 +58,33 @@ function square(n) {  ----> Declaration
 }
 
 It will still work.
+
+## REST / SPREAD OPERATORS
+
+The REST and SPREAD Operators are two operators that use same syntax (...) but differ in terms of working.
+
+#### REST OPERATOR
+
+The REST Operator is used to pack the multiple values into single element in form of array.
+The REST Operator can be used by adding ... ahead of parameter where you want to store multiple values.
+
+function packer(...multiple) {
+    console.log(multiple)
+}
+
+packer(123,456,789,234)  ---> This will store the values in the array and display it.
+
+#### SPREAD OPERATOR
+
+The Spread Operator is used to unpack multiple values in multiple arrays into single array.
+We use this using [...arr1,...arr2]
+
+function unpacker(arr1,arr2) {
+    const arr3 = [...arr1,...arr2]
+    console.log(arr3)
+}
+
+unpacker([1,2,3],[4,7,3])
+>> [1,2,3,4,7,3]
+
+

@@ -57,3 +57,33 @@ function mister(n) {
     let name = n;
     console.log(`hello ${name}`);
 }
+
+function multiplevalues(...values) {
+    console.log(values);
+}
+
+multiplevalues(1,2,3,4,5,6,7)
+
+function objectvalues(obj) {
+    console.log(`The name is ${obj.name} and age is ${obj.age}`)
+}
+
+const objectz = {
+    name:"Nayan",
+    age:24
+}
+
+objectvalues(objectz)
+
+function multiArray(arr1,arr2) {
+    const arrcombined = [...arr1,...arr2]
+    console.log(arrcombined);
+}
+
+multiArray([2,3,4],[5,6,7])
+
+function secondelmnt(arr) {
+    console.log(arr[1]);
+}
+
+secondelmnt([2,4,1,7,3,7])
